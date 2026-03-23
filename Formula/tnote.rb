@@ -1,25 +1,25 @@
 class Tnote < Formula
   desc "Terminal Notepad"
   homepage "https://github.com/jykim16/tnote"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jykim16/tnote/releases/download/v0.3.0/tnote-aarch64-apple-darwin.tar.xz"
-      sha256 "e9932bf7b2f07cf7fc41cb0bed76e51a7c2be7ea785551dd70971d1c13583adc"
+      url "https://github.com/jykim16/tnote/releases/download/v0.3.1/tnote-aarch64-apple-darwin.tar.xz"
+      sha256 "0c4b8224e33f7b5757a9548b6bde6dd1e8508a1e8ddacd8eb795ee10aeb36bab"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jykim16/tnote/releases/download/v0.3.0/tnote-x86_64-apple-darwin.tar.xz"
-      sha256 "a7bf65fa4576aa26c76ef1f132b575fd33ffa6122ab9ea13d6ac2d4d684b7761"
+      url "https://github.com/jykim16/tnote/releases/download/v0.3.1/tnote-x86_64-apple-darwin.tar.xz"
+      sha256 "1d148899cc0f2328cc9a0815afe2d4c699991599a045f15e5ab58d3b1b8edac4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jykim16/tnote/releases/download/v0.3.0/tnote-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cf0792b0e1776e4a775278d15a6cdbb03ff012a9fbbb6073511bd87fc44bb0b1"
+      url "https://github.com/jykim16/tnote/releases/download/v0.3.1/tnote-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "33128de9c90026ecaa23f8ee0afee9ff42b246aecae06a09cf54bacbc8693700"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jykim16/tnote/releases/download/v0.3.0/tnote-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "59daf822ab2ed62da9a68419adfb1eeedbf7d73ff8f045f03fbb29a2c98025e4"
+      url "https://github.com/jykim16/tnote/releases/download/v0.3.1/tnote-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e0765824c0489db272f41cae9624ac89b0db055f295a66b2bf4e41a67824c3ca"
     end
   end
   license "MIT"
